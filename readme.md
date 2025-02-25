@@ -10,3 +10,4 @@
 
 # 3. Change global settings  and push to repository.
 ![Screenshot 2025-02-24 221658](https://github.com/user-attachments/assets/2bd979e4-3b95-4e32-8098-dd22c1dd59f2)
+![Screenshot 2025-02-25 131518](https://github.com/user-attachments/assets/5aeb5e6b-922f-4997-9261-e7eeba9ee2b3)
