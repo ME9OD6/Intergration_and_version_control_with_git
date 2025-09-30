@@ -1,0 +1,29 @@
+
+name: simple CICD
+
+on: 
+    push: 
+        branches:
+            - "*"
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout repopsitory
+            uses: actions/checkout@v4
+
+          - name: Hello from build jobs
+            run: echo "Hello from build job"
+        
+    test: 
+        runs-on: ubuntu-latest
+        steps:
+          - name: Hello from test jobs
+            run: echo "hello from test job"
+
+    deploy: 
+        runs-on: ubuntu-latest 
+        steps:
+          - name: Hello from deployment
+            run: echo "hello from deployment job"
